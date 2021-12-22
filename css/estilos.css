@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: white;
+}
+.titulo0{
+    font: 50px 'Dancing Script', cursive;
+    color: green;
+    text-align: center;
+    line-height: 2;
+}
+.titulo1{
+    font: 20px 'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0, 128, 0, 0.63);
+    text-shadow: 5px 5px 5px whitesmoke;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    padding: 20px;
+    margin: 0 20;
+}
+.tituloII{
+    font: 40px 'Dancing Script', cursive;
+    color: green;
+    text-align: center;
+    line-height: 2;
+    padding: 20px;
+    margin: 0 20;
+}
+@keyframes aparecer{
+    0%{
+        border-radius: 0;
+        opacity: 0;
+    }
+}
+.titulo2{
+    font: 20px 'Dancing Script', cursive;
+    color: rgba(0, 128, 0, 0.788);
+    word-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    margin: 0 20;
+}
+.titulo3{
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgba(9, 37, 9, 0.747);
+    display: inline-block;
+    font-size: 1vw;
+    padding: 10px;
+    margin: 0 10
+}
+.lista1{
+    list-style-image: url(../media/Sintítulo.png);
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    list-style: none;
+    font-size: 1.5vw;
+    padding: 70px;
+    margin: 0 20;
+}
+.d-q-imagen li{
+    list-style-image: url(../media/Captura.PNG);
+    position: unset;
+}
+a{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 30px;
+}
+a:hover{
+    background-color: beige;
+    color: green;
+}
+.canast{
+    text-align: center;
+}
+.canastita{
+    width: 80px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    animation-name: rebotar;
+    animation-duration: 10s;
+    background-image: url(media/logoinicio.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+@keyframes rebotar{
+    0%{
+        opacity: 0;
+    }
+    1%{
+        transform: rotateY(160deg);
+        box-shadow: 0px 10px 10px 10px;
+    }
+    10%{
+        opacity: 1;
+        transform: rotateY(160deg);
+    }
+    11%{
+        box-shadow: 0px 10px 10px 10px;
+    }
+    20%{
+        opacity: 1;
+        transform: rotateY(160deg);
+    }
+    21%{
+        box-shadow: none;
+    }
+    30%{
+        opacity: 1;
+        transform: rotateY(160deg);
+    }
+    31%{
+        box-shadow: 0px 10px 10px 10px gainsboro;
+    }
+}
+.lista2 img{
+    width: 20px;
+}
+.lista2 a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    list-style: none;
+    font-size: 1.5vw;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+.enviar{
+    padding: 10px;
+    margin: 3px;  
+}
+.borrar{
+    padding: 10px;
+    margin: 3px;
+}
+.fotobase img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+.subir{
+    height: 50px;
+    width: 10%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(127, 177, 28, 0.76);
+    line-height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid rgb(107, 206, 94)
+}
+input{
+    transition: all 2s;
+}
+input:focus{
+    font-size: 20px;
+    border: 5px dotted green;
+    color: black;
+}
+footer{
+    background-image: linear-gradient(white,rgba(0, 128, 0, 0.493));
+}
+.hleft{
+    height: 50%;
+    width: 40%;
+    background-color: rgb(224, 255, 239);
+    background-size: contain;
+    float: left;
+    border: 2px solid whitesmoke;
+}
+.bottom{
+    height: 30%;
+    width: 100%;
+   text-align: justify;
+}
+.bottom i{
+    font-size: 30px;
+    color: black;
+}
+p{
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+}
+.texto{
+    /* height: 100vh; */
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.carousel-inner img{
+    max-height: 500px;
+
+}
