@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: white;
+}
+
+.canast {
+  text-align: center;
+}
+
+.canast .canastita {
+  margin: 10px;
+  width: 80px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px;
+  -webkit-animation-name: rebotar;
+          animation-name: rebotar;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  background-image: url(media/logoinicio.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+@-webkit-keyframes rebotar {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+    -webkit-box-shadow: 0px 10px 10px 10px;
+            box-shadow: 0px 10px 10px 10px;
+  }
+  10% {
+    opacity: 1;
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+  }
+  11% {
+    -webkit-box-shadow: 0px 10px 10px 10px;
+            box-shadow: 0px 10px 10px 10px;
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+  }
+  21% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+  }
+  31% {
+    -webkit-box-shadow: 0px 10px 10px 10px gainsboro;
+            box-shadow: 0px 10px 10px 10px gainsboro;
+  }
+}
+
+@keyframes rebotar {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+    -webkit-box-shadow: 0px 10px 10px 10px;
+            box-shadow: 0px 10px 10px 10px;
+  }
+  10% {
+    opacity: 1;
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+  }
+  11% {
+    -webkit-box-shadow: 0px 10px 10px 10px;
+            box-shadow: 0px 10px 10px 10px;
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+  }
+  21% {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  30% {
+    opacity: 1;
+    -webkit-transform: rotateY(160deg);
+            transform: rotateY(160deg);
+  }
+  31% {
+    -webkit-box-shadow: 0px 10px 10px 10px gainsboro;
+            box-shadow: 0px 10px 10px 10px gainsboro;
+  }
+}
+
+.titulo0 {
+  font: 50px 'Dancing Script', cursive;
+  color: green;
+  text-align: center;
+  line-height: 2;
+}
+
+.titulo1 {
+  font: 20px 'Dancing Script', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(0, 128, 0, 0.63);
+  text-shadow: 5px 5px 5px whitesmoke;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  padding: 20px;
+  margin: 0 20;
+}
+
+.container-fluid {
+  padding: 0%;
+}
+
+.carousel {
+  max-height: 450px;
+}
+
+.carousel img {
+  max-height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=estilo.css.map */

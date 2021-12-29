@@ -1,31 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    height: 100vh;
-    background-color: white;
-}
-.titulo0{
-    font: 50px 'Dancing Script', cursive;
-    color: green;
-    text-align: center;
-    line-height: 2;
-}
-.titulo1{
-    font: 20px 'Dancing Script', cursive;
-    text-transform: uppercase;
-    text-align: center;
-    color: rgba(0, 128, 0, 0.63);
-    text-shadow: 5px 5px 5px whitesmoke;
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-delay: 5s;
-    animation-iteration-count: infinite;
-    padding: 20px;
-    margin: 0 20;
-}
 .tituloII{
     font: 40px 'Dancing Script', cursive;
     color: green;
@@ -82,54 +54,7 @@ a:hover{
     background-color: beige;
     color: green;
 }
-.canast{
-    text-align: center;
-}
-.canastita{
-    width: 80px;
-    text-align: center;
-    line-height: 200px;
-    font-size: 50px;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: auto;
-    animation-name: rebotar;
-    animation-duration: 10s;
-    background-image: url(media/logoinicio.jpeg);
-    background-position: center;
-    background-size: cover;
-}
-@keyframes rebotar{
-    0%{
-        opacity: 0;
-    }
-    1%{
-        transform: rotateY(160deg);
-        box-shadow: 0px 10px 10px 10px;
-    }
-    10%{
-        opacity: 1;
-        transform: rotateY(160deg);
-    }
-    11%{
-        box-shadow: 0px 10px 10px 10px;
-    }
-    20%{
-        opacity: 1;
-        transform: rotateY(160deg);
-    }
-    21%{
-        box-shadow: none;
-    }
-    30%{
-        opacity: 1;
-        transform: rotateY(160deg);
-    }
-    31%{
-        box-shadow: 0px 10px 10px 10px gainsboro;
-    }
-}
+
 .lista2 img{
     width: 20px;
 }
@@ -160,6 +85,7 @@ form{
     height: 150px;
     object-fit: cover;
     margin-top: 30px;
+    max-width: 300px;
 }
 .subir{
     height: 50px;

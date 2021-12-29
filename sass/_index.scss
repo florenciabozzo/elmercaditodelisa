@@ -1,0 +1,78 @@
+.canast{
+    text-align: center;
+    .canastita{
+    margin: 10px;
+    width: 80px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px;
+    animation-name: rebotar;
+    animation-duration: 10s;
+    background-image: url(media/logoinicio.jpeg);
+    background-position: center;
+    background-size: cover;
+    }
+}
+@keyframes rebotar{
+    0%{
+        opacity: 0;
+    }
+    1%{
+        transform: rotateY(160deg);
+        box-shadow: 0px 10px 10px 10px;
+    }
+    10%{
+        opacity: 1;
+        transform: rotateY(160deg);
+    }
+    11%{
+        box-shadow: 0px 10px 10px 10px;
+    }
+    20%{
+        opacity: 1;
+        transform: rotateY(160deg);
+    }
+    21%{
+        box-shadow: none;
+    }
+    30%{
+        opacity: 1;
+        transform: rotateY(160deg);
+    }
+    31%{
+        box-shadow: 0px 10px 10px 10px gainsboro;
+    }
+}
+.titulo0{
+    font: 50px 'Dancing Script', cursive;
+    color: green;
+    text-align: center;
+    line-height: 2;
+}
+.titulo1{
+    font: 20px 'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(0, 128, 0, 0.63);
+    text-shadow: 5px 5px 5px whitesmoke;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    padding: 20px;
+    margin: 0 20;
+}
+.container-fluid{
+    padding: 0%;
+}
+.carousel{
+    max-height: 450px;
+    img{
+    max-height: 450px;
+    object-fit: cover;
+    }
+}
